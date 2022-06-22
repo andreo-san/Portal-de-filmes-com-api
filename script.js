@@ -63,11 +63,11 @@ cont = 0;
 function showMovies(data){
     if(cont >= 1){
         for(i = 8; i<index; i++){
-            document.getElementById("testeAdd").innerHTML += `<div class="col-12 col-sm-6 col-lg-3" class="rmv"><img src="${IMG_URL+ data[i].poster_path}" alt="" width="100%"><a href="/detalhes.html?id=${data[i].id}">${data[i].original_title}</a></div>`
+            document.getElementById("testeAdd").innerHTML += `<div class="col-12 col-sm-6 col-lg-3" class="rmv"><img src="${IMG_URL+ data[i].poster_path}" alt="" width="100%"><a href="/Portal-de-filmes-com-api/detalhes.html?id=${data[i].id}">${data[i].original_title}</a></div>`
         }
     }else{
         for(i = 0; i<index; i++){
-            document.getElementById("testeAdd").innerHTML += `<div class="col-12 col-sm-6 col-lg-3" class="rmv"><img src="${IMG_URL+ data[i].poster_path}" alt="" width="100%"><a href="/detalhes.html?id=${data[i].id}">${data[i].original_title}</a></div>`
+            document.getElementById("testeAdd").innerHTML += `<div class="col-12 col-sm-6 col-lg-3" class="rmv"><img src="${IMG_URL+ data[i].poster_path}" alt="" width="100%"><a href="/Portal-de-filmes-com-api/detalhes.html?id=${data[i].id}">${data[i].original_title}</a></div>`
             cont++;
         }
     }
