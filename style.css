@@ -1,0 +1,280 @@
+.titulos{
+    font-weight: bold;
+}
+
+.carousel-control-next-icon{
+    background-image: url(./assets/arrow-right-circle.svg)!important;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(./assets/arrow-left-circle.svg)!important;
+}
+
+h1, h2, h3, h4{
+    color: #172434;
+    font-weight: bold;
+}
+
+#buscar{
+    margin-left: -55px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid;
+    padding-left: 6px;
+}
+
+#dir{
+    margin-left: 100px;
+}
+
+#esq{
+    margin-left: -250px;
+}
+
+#busca{
+    display: flex;
+}
+
+#busca button{
+    margin-left: -20px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid;
+}
+
+/*Estilização do header e menu*/
+header{
+    background-color: #C0C0C0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    border: solid;
+    text-align: center;
+    border-width: 1px;
+}
+
+.menu{
+    align-self: center;
+    text-align: end;
+}
+
+.fa-search, .fa-times-circle-o{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 15px;
+    min-width: 25px;
+    font-size: small;
+}
+
+.fa-times-circle-o{
+    margin-left: -35px;
+}
+
+#inp{
+    background-color: transparent;
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header li{
+    margin-left: 5px;
+}
+
+header .row .col-4{
+    text-align: end;
+}
+/*Estilização do header e menu*/
+
+
+/*Main*/
+.section-bgcinza{
+    background-color: #eeeeee;
+}
+
+#lancamentos{
+    padding-bottom: 60px;
+}
+
+/*Estilização do carrossel*/
+
+#container1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#t1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.carousel-indicators button{
+    margin-bottom: -80px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px !important;
+    height: 10px !important;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 5000px;
+    border-top: 0px !important; 
+    border-bottom: 0px !important;
+    opacity: .5;
+    margin-top: 35px;
+    transition: opacity .6s ease;
+}
+
+.carousel-control-next-icon{
+    margin-left: 150px !important;
+}
+
+.carousel-control-prev-icon{
+    margin-right: 150px !important;
+}
+/*Estilização do carrossel*/
+
+.dropdown{
+    text-align: end;
+}
+
+#destaque{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#dropdownMenuButton1{
+    background-color: #fff;
+    color: black;
+}
+
+.bttn-load-more{
+    text-align: end;
+}
+
+.bttn-load-more button{
+    background-color: #545454;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dropdown-toggle::after{
+    margin-left: 85px !important;
+}
+
+#entrevistas{
+    padding-bottom: 80px;
+}
+
+.img-aval{
+    display: inline;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 100px !important;
+}
+
+.card{
+    border: none !important;
+}
+
+.entrevistas{
+    padding-top: 20px;
+    padding-bottom: 130px;
+}
+
+.fa-facebook-official, .fa-twitter, .fa-instagram{
+    font-size: 35px;
+}
+
+.fa-twitter, .fa-instagram{
+    margin-left: 25px;
+}
+
+.img-not{
+    text-align: center !important;
+    align-self: center !important;
+}
+
+.dropdown-item{
+    padding-right: 172px !important;
+}
+
+.categoria p{
+    background-color: #545454;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.text-muted {
+    color: #ffffff!important;
+}
+
+.logo {
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo p{
+    margin: 0 !important;
+}
+
+small.text-muted {
+    color: white !important;
+}
+
+footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+footer .container .row .col-10{
+    align-self: center;
+}
+
+@media (max-width: 1000px){
+    #sec-dest img{
+        margin-bottom: 10px;
+        width: 350px;
+    }
+
+    #sec-dest .row .col-12{
+        text-align: center;
+    }
+
+    .videos{
+        height: 100%;
+    }
+}
+
+@media (max-width: 760px){
+    .dropdown {
+        text-align: center;
+    }
+}

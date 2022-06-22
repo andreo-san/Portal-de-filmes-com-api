@@ -1,0 +1,17 @@
+.flex{
+    display: flex;
+}
+
+#resultados{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#resultado{
+    display: flex;
+    margin-top: 10px;
+}
+
+#resultado div{
+    margin-left: 20px;
+}
