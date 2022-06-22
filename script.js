@@ -34,7 +34,7 @@ function showReleaseMovies(data){
             <div class="container">
                 <div class="row">
                 <div class="col-6" id="dir"><img class="d-block" src="${IMG_URL + data[0].poster_path}" alt="First slide" width="280px"></div>
-                <div class="col-6" id="esq"><h2><a href="/detalhes.html?id=${data[0].id}">${data[0].original_title}</a></h2>
+                <div class="col-6" id="esq"><h2><a href="/Portal-de-filmes-com-api/detalhes.html?id=${data[0].id}">${data[0].original_title}</a></h2>
                     <p>${data[0].overview}</p></div>
                 </div>
             </div>
@@ -46,7 +46,7 @@ function showReleaseMovies(data){
             <div class="container">
             <div class="row">
             <div class="col-6" id="dir"><img class="d-block" src="${IMG_URL + data[i].poster_path}" alt="First slide" width="280px"></div></a>
-            <div class="col-6" id="esq"><h2><a href="/detalhes.html?id=${data[i].id}">${data[i].original_title}</a></h2>
+            <div class="col-6" id="esq"><h2><a href="/Portal-de-filmes-com-api/detalhes.html?id=${data[i].id}">${data[i].original_title}</a></h2>
                 <p>${data[i].overview}</p></div>
             </div>
         </div>
@@ -80,5 +80,5 @@ document.getElementById("loadMore").addEventListener('click', () => {
 })
 
 inp.addEventListener('input', () => {
-    document.getElementById("buscar").href = "/busca.html?querie="+inp.value;
+    document.getElementById("buscar").href = "/Portal-de-filmes-com-api/busca.html?querie="+inp.value;
 })
