@@ -18,7 +18,7 @@ function getMovies(url){
 
 function showMovies(data){
     for(i = 0; i<data.length; i++){
-        document.getElementById("resultados").innerHTML += `<a href="/detalhes.html?id=${data[i].id}"><div id="resultado">
+        document.getElementById("resultados").innerHTML += `<a href="/Portal-de-filmes-com-api/detalhes.html?id=${data[i].id}"><div id="resultado">
         <img src="${IMG_URL+ data[i].poster_path}" alt="" width="200px">
         <div>
             <h2>${data[i].original_title}</h2>
@@ -29,7 +29,7 @@ function showMovies(data){
 }
 
 inp.addEventListener('input', () => {
-    document.getElementById("buscar").href = "/busca.html?querie="+inp.value;
+    document.getElementById("buscar").href = "/Portal-de-filmes-com-api/busca.html?querie="+inp.value;
 })
 
 console.log(nomeParam);
