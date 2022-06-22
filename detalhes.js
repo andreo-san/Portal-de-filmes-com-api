@@ -37,5 +37,5 @@ function showMovies(data){
 }
 
 inp.addEventListener('input', () => {
-    document.getElementById("buscar").href = "/busca.html?querie="+inp.value;
+    document.getElementById("buscar").href = "/Portal-de-filmes-com-api/busca.html?querie="+inp.value;
 })
